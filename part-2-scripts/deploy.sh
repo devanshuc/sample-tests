@@ -1,8 +1,10 @@
 #!/bin/bash
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.5.0/bin
+# This is basically used to get node, pm2, npm on your machine
 
 cd Week-5-with-axios-and-backend
  git pull origin master
  cd server
  pm2 kill
  pm2 start index.js
+ 
